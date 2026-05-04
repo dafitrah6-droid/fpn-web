@@ -4,7 +4,7 @@ import React from 'react';
 import { useParams } from 'next/navigation';
 import Link from 'next/link';
 
-// DATABASE KONTEN TETAP SAMA (TIDAK MENGUBAH STRUKTUR DATA KAMU)
+// DATABASE 
 const MODULE_DATA: any = {
   "1": {
     title: "Dasar Diplomasi Internasional",
@@ -40,7 +40,7 @@ export default function BabPage() {
   const params = useParams();
   const id = params.id as string;
   
-  // Deteksi Bab berdasarkan folder tempat file ini berada
+  // Deteksi Bab berdasarkan folder 
   // Jika file ini di /bab1/page.tsx, maka kita ambil data bab1
   const pathParts = window.location.pathname.split('/');
   const babId = pathParts[pathParts.length - 1] || "bab1"; 

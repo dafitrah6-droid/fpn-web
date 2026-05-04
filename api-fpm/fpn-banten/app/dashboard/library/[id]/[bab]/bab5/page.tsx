@@ -23,7 +23,7 @@ export default function Bab5() {
 
         <div className="prose prose-slate max-w-none text-slate-700 leading-loose text-justify space-y-8">
           <p>
-            Selamat, Muhammad Dafitrah. Kamu telah sampai pada puncak pembelajaran diplomasi. Di bab terakhir ini, kita membahas bagaimana teknologi informasi telah merubah wajah diplomasi selamanya. Kini, sebuah cuitan di media sosial bisa memiliki dampak sekuat nota diplomatik resmi.
+            Selamat. Kamu telah sampai pada puncak pembelajaran diplomasi. Di bab terakhir ini, kita membahas bagaimana teknologi informasi telah merubah wajah diplomasi selamanya. Kini, sebuah cuitan di media sosial bisa memiliki dampak sekuat nota diplomatik resmi.
           </p>
 
           <div className="bg-[#0f172a] text-white p-10 rounded-[40px] shadow-2xl my-10 relative overflow-hidden">

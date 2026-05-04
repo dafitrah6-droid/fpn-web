@@ -18,7 +18,7 @@ function VerifyContent() {
 
     const verifikasiKeDatabase = async () => {
       try {
-        // Ganti URL ini sesuai dengan endpoint API XAMPP kamu untuk verifikasi hash
+        
         const response = await fetch(`http://localhost/api-fpm/verify_hash.php?hash=${hash}`);
         const data = await response.json();
 
@@ -129,7 +129,7 @@ function VerifyContent() {
   );
 }
 
-// Next.js mewajibkan useSearchParams dibungkus Suspense
+
 export default function VerifyPage() {
   return (
     <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Loading...</div>}>

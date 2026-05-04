@@ -188,10 +188,10 @@ export default function Home() {
       <section className="bg-slate-50 py-16 border-y border-slate-100 mb-12">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
-            { label: "Total Anggota", value: "300+", icon: "👥" },
+            { label: "Total Anggota", value: "30+", icon: "👥" },
             { label: "Kegiatan Selesai", value: "2", icon: "✅" },
             { label: "Wilayah Cakupan", value: "38 Prov", icon: "📍" },
-            { label: "Sertifikasi Digital", value: "56", icon: "🎓" },
+            { label: "Sertifikasi Digital", value: "300", icon: "🎓" },
           ].map((stat, i) => (
             <div key={i} className="text-center group">
               <div className="text-2xl mb-2 group-hover:scale-110 transition-transform inline-block">
@@ -318,7 +318,7 @@ export default function Home() {
                 </div>
              </div>
              <p className="text-sm text-slate-300 leading-loose max-w-md italic">
-               "Menciptakan ruang digital yang aman, tangguh, dan berdaulat bagi generasi muda Banten melalui kepemimpinan yang berkarakter."
+               "Menciptakan ruang digital yang aman, tangguh, dan berdaulat bagi generasi muda Banten melalui kepemimpinan yang berkarakter yang berlandaskan pancasila."
              </p>
           </div>
           
@@ -344,7 +344,7 @@ export default function Home() {
                 <span className="text-amber-500 font-bold">ALAMAT:</span> Tangerang, Banten, Indonesia
               </p>
               <p className="flex gap-2">
-                <span className="text-amber-500 font-bold">EMAIL:</span> humas@fpn.or.id
+                <span className="text-amber-500 font-bold">EMAIL:</span> fpnbanten@gmail.com
               </p>
             </div>
           </div>

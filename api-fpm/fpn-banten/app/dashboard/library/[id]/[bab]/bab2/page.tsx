@@ -28,7 +28,7 @@ export default function Bab2() {
           </div>
 
           <p>
-            Bagi kader Paskibraka dan Parlemen Pelajar, protokol bukan sekadar aturan kaku tentang baris-berbaris. Protokol adalah bahasa simbolis kedaulatan negara. Bung Karno sangat memahami ini; beliau selalu tampil necis dengan peci hitam untuk menegaskan identitas Indonesia di tengah dominasi Barat.
+             protokol bukan sekadar aturan kaku tentang baris-berbaris. Protokol adalah bahasa simbolis kedaulatan negara. Bung Karno sangat memahami ini; beliau selalu tampil necis dengan peci hitam untuk menegaskan identitas Indonesia di tengah dominasi Barat.
           </p>
 
           <h3 className="text-xl font-black text-[#0f172a] uppercase tracking-tight">Pilar Utama Protokoler:</h3>

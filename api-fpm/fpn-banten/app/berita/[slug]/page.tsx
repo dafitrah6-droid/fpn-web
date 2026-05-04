@@ -7,7 +7,7 @@ export default function DetailBeritaPage() {
   const slug = params.slug;
 
   const beritaMap: any = {
-    "sejarah-pembentukan-fpn": {
+    "sejarah-pembentukan-fpn di banten": {
       title: "Sejarah Pembentukan FPN: Menelusuri Jejak Pergerakan Pelajar di Tanah Jawara",
       date: "27 Maret 2026",
       cat: "ORGANISASI",
